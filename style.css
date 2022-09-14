@@ -1,0 +1,103 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold';
+  }
+
+  body{
+    text-align:center; 
+    background-color:#cddde6ee; 
+    margin: 0 auto;
+  }
+
+  header{
+    background-color:#366ba8;
+    text-align: center;
+    width:100vw;
+    color:rgb(3, 3, 37);
+  }
+
+  main{
+    font-size: 2rem;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    background-color:#75b5bfa9;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  h5{
+    padding: 5px;
+  }
+   
+  h6{
+    font-size: 17px;
+    color:rgba(5, 5, 35, 0.884);
+    padding: 10px;
+  }
+  
+  p{
+    font-size:0.8rem;
+    font-family: sans-serif;
+    line-height:1.5;
+    color:#040117;
+    padding-top: 10px;
+    width: 15vw;
+  }
+  
+  img{
+    width: 25vw;
+    height: 25vh;
+    margin: 2px;
+  }
+  
+  ul{
+    list-style-type:none;
+    line-height:3rem;
+  }
+  
+  .end{
+    padding: 0.5px;
+    line-height:0.5vw;
+    text-decoration:line;
+  }
+
+  .end li{
+    margin: 0 auto;
+  }
+
+  .end a{
+    color:rgba(6, 10, 50, 0.927);
+    display: inline-flexbox;
+    align-content: space-between;
+  }
+  
+  button{
+    background-color:rgb(133, 191, 210);
+    border:1px solid;
+    padding:2px 20px;
+    border-radius:3px;
+    margin:0 auto;
+  }
+
+  form{
+    height: 10vh;
+    padding: 0px 1px;
+  }
+
+  footer{
+    background-color:rgb(15, 30, 66);
+    color:white;
+    width: 100vw;
+    text-align: center;
+    height: auto;
+  }
+
+
+ 
