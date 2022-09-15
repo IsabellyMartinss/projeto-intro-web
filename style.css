@@ -5,17 +5,42 @@
     font-family: 'Arial Narrow Bold';
   }
 
-  body{
-    text-align:center; 
-    background-color:#cddde6ee; 
-    margin: 0 auto;
-  }
-
   header{
     background-color:#366ba8;
-    text-align: center;
     width:100vw;
     color:rgb(3, 3, 37);
+    height: 6vh;  
+    position: sticky;
+    top: 0px;
+    text-align: center;
+  }
+
+  #Buscar{
+    position: fixed;
+    right: 50px;
+    margin: 10px 15px;
+    height: 22px;
+  }
+
+  #logoBuscar{
+    position: fixed;
+    right: 220px;
+    margin: 10px 15px;
+    width: 3vw;
+    height: 3vh;
+  }
+
+  #botaoBuscar{
+    position: fixed;
+    right: 5px;
+    margin: 10px 15px;
+    width: 2px;
+    height: 3vh;
+  }
+
+  body{
+    background-color:#acc2dc;
+    position: relative;
   }
 
   main{
@@ -27,19 +52,22 @@
   }
 
   .card{
-    background-color:#75b5bfa9;
+    background-color:rgb(130, 177, 224);
     border-radius: 20px;
     padding: 15px;
+    display: grid;
+    grid-template-rows: 200px 50px 1fr;
+    justify-items: center;
   }
 
-  h5{
-    padding: 5px;
+  div{
+    text-align: right;
   }
    
   h6{
     font-size: 17px;
     color:rgba(5, 5, 35, 0.884);
-    padding: 10px;
+    text-align: center;
   }
   
   p{
@@ -47,14 +75,22 @@
     font-family: sans-serif;
     line-height:1.5;
     color:#040117;
-    padding-top: 10px;
-    width: 15vw;
+    width: 20vw;
+    display: grid;
+    grid-template-rows: 30vh 1fr;
+    justify-items: center;
   }
   
   img{
     width: 25vw;
     height: 25vh;
     margin: 2px;
+  }
+
+  #logobusca{
+    width: 2vw;
+    height: 3vh;
+    float: left;
   }
   
   ul{
@@ -70,6 +106,7 @@
 
   .end li{
     margin: 0 auto;
+    text-align: center;
   }
 
   .end a{
@@ -89,14 +126,15 @@
   form{
     height: 10vh;
     padding: 0px 1px;
+    text-align: center;
   }
 
   footer{
     background-color:rgb(15, 30, 66);
     color:white;
     width: 100vw;
-    text-align: center;
     height: auto;
+    text-align: center;
   }
 
 
