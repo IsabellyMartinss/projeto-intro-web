@@ -2,12 +2,11 @@ document.getElementById("botaoEnviar").addEventListener("click", validaFormulari
 
 function validaFormulario(){
   if(document.getElementById("nome").value != "" && document.getElementById("email").value != "" && document.getElementById("telefone").value != "" ){
-
     alert("Prontinho! você receberá as novidades por email.")
    }else{
      alert("Por favor, preencha os campos nome, email e telefone.")
    }
- };
+};
 
 const subgeneros = [];
 
@@ -15,9 +14,9 @@ obj1 = {
 serie: "Broklyn 99",
 sinopse:"A série Brooklyn Nine-Nine é ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, acompanhando as maluquices do imaturo detetive Jake Peralta e como será a história com seu novo comandante, o sério e severo Capitão Ray Holt.",
 temporadas: 8,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Andy Samberg como Jake Peralta", "Melissa Fumero como Amy Santiago", "Andre Braugher como Cpt. Raymond Holt", "Stephanie Beatriz como Rosa Diaz", "Terry Crews como Terry Jeffords","Joe Lo Truglio como Charles Boyle","Dirk Blocker como Hitchcock", "Joel McKinnon Millercomo Scully", "Chelsea Peretti Personagem : Gina Linetti"]
- },
+  },
 
 obj2 = {
 serie: "Castle",
@@ -31,7 +30,7 @@ obj3 = {
 serie: "Reacher",
 sinopse: "Após abandonar o Exército dos Estados Unidos, o veterano Jack Reacher decidiu percorrer o país e seguir uma nova carreira passando a trabalhar como investigador freelancer. Quando Jack chega em uma pequena cidade, várias mortes começam a ocorrer e ele acaba se tornando o principal suspeito. Quando consegue provar sua inocência, o xerife local decide pedir sua ajuda para resolver a série de brutais homicídios. \n Aos poucos, o ex-militar vai juntando as pistas necessárias e percebe que há algo muito mais obscuro por trás das mortes. Reacher descobre uma rede de conspiração e corrupção envolvendo pessoas muito poderosas e que não serão fáceis de derrubar.",
 temporadas: 1,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Alan Ritchson como Jack Reacher", "Malcolm Goodwin como Oscar Finlay", "Willa Fitzgerald como Roscoe Conklin", "Bruce McGill como Mayor Grover Teale"]
   },
   
@@ -39,7 +38,7 @@ obj4 = {
 serie: "Jessica Jones",
 sinopse: "Desde que sua curta vida como super-heroína acabou de forma trágica, Jessica Jones vem reconstruindo sua carreira e passou a levar a vida como detetive particular no bairro de Hell's Kitchen, em Nova York, na sua própria agência de investigações, a Alias Investigations. Traumatizada por eventos anteriores de sua vida, ela sofre de Transtorno de Estresse Pós-Traumático, e tenta fazer com que seus super-poderes passem despercebidos pelos seus clientes. Mas, mesmo tentando fugir do passado, seus demônios particulares vão voltar a perseguí-la, na figura de Zebediah Kilgrave, um obsessivo vilão que fará de tudo para chamar a atenção de Jessica.",
 temporadas: 3,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Krysten Ritter como Jessica Jones","Rachael Taylor como Trish Walker","Janet McTeer como Alisa Jones","Leah Gibson como Ingrid", "J.R. Ramirez como Oscar", "Eka Darville como Malcolm Ducasse", "Carrie-Anne Moss como Jeri Hogarth", "Terry Chen como Pryce Cheng"]
   },
 
@@ -87,7 +86,7 @@ obj10 = {
 serie: "Law & Order: S.V.U",
 sinopse: "A vida e os desafios da Equipe Especial de Elite do Departamento de Polícia de Nova York. A 'Special Victims Unit' (Unidade de Vítimas Especiais) investiga os crimes de caráter sexual, seguindo os passos dos detetives Elliot Stabler e Olivia Benson. Com sabedoria, eles precisam ao mesmo tempo balancear os efeitos das investigações em suas vidas pessoais.",
 temporadas: 24,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Mariska Hargitay como Olivia Benson", "Christopher Meloni como Dét. Elliot Stabler", "Kelli Giddish como Amanda Rollins", "Ice-T como Odafin Tutuola", "Dann Florek como Cpt. Donald Cragen", "Tamara Tunie como Dr Melinda Warner"]
   },
 
@@ -95,7 +94,7 @@ obj11 = {
 serie: "Law & Order: Org.C.",
 sinopse: "Law & Order: Organized Crime é a série de drama policial spin-off de Law & Order: SVU. Na trama o detetive veterano Elliot Stabler retorna ao Departamento de Polícia de Nova York depois do assassinato de sua esposa. Elliot deseja encontrar o responsável pelo crime que o traumatizou e é posicionado como braço direito da sargento Ayanna Bell. Em seu retorno, ele percebe que a cidade e a polícia mudou drasticamente desde que se afastou. Agora, o detetive precisa se adaptar a um novo sistema enquanto lida com seus problemas pessoais. Como um dos líderes da força tarefa, Stabler terá a difícil missão de restabelecer sua vida e ao mesmo tempo lidar com organizações criminosas influentes em toda a região.",
 temporadas: 3,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Christopher Meloni como Elliot Stabler", "Danielle Moné Truitt como Ayanna Bell", "Tamara Taylor como Angela Wheatley", "Ainsley Seiger como Jet Sloomaekers", "Dylan McDermott como Richard M. Wheatley"]
   },
 
@@ -103,7 +102,7 @@ obj12 = {
 serie: "Chicago PD",
 sinopse: "O 21º Departamento de Polícia de Chicago é formado por dois grupos distintos: os oficiais de uniforme, que lidam com crimes urbanos e a Unidade de Inteligência que possui uma marca única de justiça para proteger a cidade que ama. Liderada pelo detetive sargento Hank Voight (Jason Beghe), a equipe combate os crimes mais hediondos da cidade: crime organizado, tráfico de drogas, assassinatos e muito mais.",
 temporadas: 10,
-encerrada: (false),
+encerrada: (true),
 elenco: ["Jason Beghe como Sgt. Hank Voight", "Jon Seda como Det. Antonio Dawson", "Jesse Lee Soffer como Det. Jay Halstead", "Patrick John Flueger como Off. Adam Ruzek", "Marina Squerciati como Off. Kim Burgess", "LaRoyce Hawkins como Off. Kevin Atwater", "Amy Morton como Sgt. Trudy Platt","Tracy Spiridakos como Det. Hailey Upton","Elias Koteas como Det. Alvin Olinsky","Sophia Bush como Det. Erin Lindsay"]
   },   
 
@@ -155,37 +154,75 @@ encerrada: (true),
 elenco: ["Patrick Ridremont como Sam Leroy", "Constance Gay como Billie Vebber", "Tom Audenaert como Bob Franck", "Roda Fawaz como Nassim Khaoulani", "Danitza Athanassiadis como Alice Meerks"]
   }
 
-if(obj1||obj2||obj3||obj4||obj5||obj6||obj7||obj8||obj9||obj10||obj11||obj12||obj13||obj14||obj15||obj16||obj17||obj18){
-  subgeneros.push(obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14, obj15, obj16, obj17, obj18)
-}
-
-console.log(subgeneros);
-
-// function verificaRenovou(obj, array){
-//   if(obj.encerrada){
-//     return array.push(obj)
-//   }else{
-//     alert('Objetos não adicionados')
-//   }
+// if(obj1||obj2||obj3||obj4||obj5||obj6||obj7||obj8||obj9||obj10||obj11||obj12||obj13||obj14||obj15||obj16||obj17||obj18){
+//   subgeneros.push(obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14, obj15, obj16, obj17, obj18)
 // }
 
-// verificaRenovou(obj1, subgeneros);
-// verificaRenovou(obj2, subgeneros);
-// verificaRenovou(obj3, subgeneros);
-// verificaRenovou(obj4, subgeneros);
-// verificaRenovou(obj5, subgeneros);
-// verificaRenovou(obj6, subgeneros);
+// console.log(subgeneros);
 
+function verificaRenovou(obj, array){
+  if(obj.encerrada === true){
+    return array.push(obj)
+  }else{
+    alert('Objetos não adicionados')
+  }
+}
 
+verificaRenovou(obj1, subgeneros);
+verificaRenovou(obj2, subgeneros);
+verificaRenovou(obj3, subgeneros);
+verificaRenovou(obj4, subgeneros);
+verificaRenovou(obj5, subgeneros);
+verificaRenovou(obj6, subgeneros);
+verificaRenovou(obj7, subgeneros);
+verificaRenovou(obj8, subgeneros);
+verificaRenovou(obj9, subgeneros);
+verificaRenovou(obj10, subgeneros);
+verificaRenovou(obj11, subgeneros);
+verificaRenovou(obj12, subgeneros);
+verificaRenovou(obj13, subgeneros);
+verificaRenovou(obj14, subgeneros);
+verificaRenovou(obj15, subgeneros);
+verificaRenovou(obj16, subgeneros);
+verificaRenovou(obj17, subgeneros);
+verificaRenovou(obj18, subgeneros);
 
-let mediaQuant = (subgeneros[0].temporadas+subgeneros[1].temporadas+subgeneros[2].temporadas+subgeneros[3].temporadas+subgeneros[4].temporadas+subgeneros[5].temporadas)/5;
+let mediaQuant = (subgeneros[0].temporadas+subgeneros[1].temporadas+subgeneros[2].temporadas+subgeneros[3].temporadas+subgeneros[4].temporadas+subgeneros[5].temporadas+subgeneros[6].temporadas+subgeneros[7].temporadas+subgeneros[8].temporadas+subgeneros[9].temporadas+subgeneros[10].temporadas+subgeneros[11].temporadas+subgeneros[12].temporadas+subgeneros[13].temporadas+subgeneros[14].temporadas+subgeneros[15].temporadas+subgeneros[16].temporadas+subgeneros[17].temporadas)/5;
 console.log(mediaQuant);
 
 for(k in subgeneros){
   let concat = "";
-  for (i of subgeneros[k].encerrada) {
+  for (i of subgeneros[k].elenco) {
     concat += i + ", ";
   }
   console.log(`${subgeneros[k].serie.toUpperCase()}\n\n ${subgeneros[k].temporadas}\n\n Elenco: ${concat}\n\n`)
 }
+
+function imprimiObj(obj){
+  let propriedade = ""
+  for (i in obj){
+    propriedade += i + "\n"
+  }
+  return propriedade
+}
+
+imprimiObj(obj1, subgeneros)
+
+for (i of subgeneros){
+  console.log(i)
+}
+const busca = (arrayObj, string)=>{
+  const buscaString = arrayObj.filter((arrayObj)=>{return arrayObj.serie===string})
+  if (buscaString.lenght===0){
+    alert("Nenhum item encontrado")
+  }else{
+    return buscaString[0]
+  }
+}
+
+console.log(busca(subgeneros, "Unit 42"))
+
+
+
+
   
