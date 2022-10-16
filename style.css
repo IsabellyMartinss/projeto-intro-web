@@ -5,46 +5,67 @@
   }
 
   header{
-    background-color:#366ba8;
+    background: rgb(7, 5, 54);
     color:rgb(3, 3, 37);
-    height: 6vh;  
+    height: 3vw;  
     position: sticky;
-    top: 0px;
+    top: 0vw;
     text-align: center;
+    font-family: 'Crete Round', serif;
+    font-size: 1.3vw;
+    text-shadow: 0 0 4px rgb(184, 193, 210);
+    box-shadow: 2px 2px 2px 1px rgba(9, 9, 60, 0.702);
   }
 
   #logoPrincipal{
     position:fixed;
-    left:550px;
-    height: 6vh;
+    top: 0.2vw;
+    left:33vw;
+    height: 3vw;
     width: 4vw;
   }
 
   #Buscar{
     position: fixed;
-    right: 50px;
-    margin: 10px 15px;
-    height: 22px;
+    right: 4vw;
+    margin: 0.65vw 5vw;
+    height: 1.5vw;
+    width: 15vw;
+    font-size: 1vw;
   }
 
   #logoBuscar{
     position: fixed;
-    right: 24px;
-    top: 10px;
+    top: 0.9vw;
+    left: 90.6vw;
     width: 2vw;
-    height: 3.5vh;
+    height: 1.5vw;
   }
 
   #botaoBuscar{
     position: fixed;
-    right: 18px;
-    top: 10px;
-    width: 1vw;
-    height: 3.5vh;
+    right: 4vw;
+    top: 0.6vw;
+    left: 90vw;
+    width: 3vw;
+    height: 2vw;
+    background-color: rgba(25, 29, 108, 0.836);
+    border-radius: 0.5vw;
+    font-size: 1vw;
+  }
+
+  #botaoBuscar:active{
+    background-color:rgb(93, 129, 192);
+    border-color: #9296ac;
+    border-radius: 0.5vw;
   }
 
   body{
     background-color:#acc2dc;
+  }
+
+  section{
+    margin-bottom: 1%;
   }
 
   main{
@@ -59,76 +80,91 @@
     padding: 15px;
   }
 
-  .conteiner__card{
-    background-color:rgb(130, 177, 224);
+  #conteiner__card{
+    background: linear-gradient(180deg, rgba(2,0,36,0.9304096638655462) 0%, rgba(47,86,170,1) 59%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px 40px;
     border: 2px solid rgba(12, 24, 71, 0.83);
-    border-radius: 20px;
     justify-content: space-around;
-    height: 68vh;
+    height: 40vw;
     width: 28vw;
   }
 
   div{
-    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  h3{
-    font-size: 23px;    
+  .header{
+    text-align: right;
   }
    
   h6{
-    font-size: 17px;
+    font-size: 1vw;
     color:rgba(5, 5, 35, 0.884);
     text-align: center;
     line-height: 3rem;
   }
   
   p{
-    font-size:0.8rem;
+    font-size:1vw;
     font-family: sans-serif;
     color:#040117;
     width: 90%;
     height: 45%;
-    margin-bottom: 20px;
-    line-height: 2vh;
+    margin-bottom: 5%;
+    line-height: 1vw;
   }
   
   img{
     width: 24vw;
-    height: 25vh;
-    border-radius: 8%;
-  }
-  
-  ul{
-    list-style-type:none;
-    line-height:3rem;
+    height: 35%;
+    border-radius: 20px;
   }
 
   a{
-    text-decoration:none;
+    text-decoration: none;
+    font-size: 1.5vw; 
+    color:rgb(3, 3, 37);
   }
   
-  button{
-    background-color:rgb(133, 191, 210);
-    border:1px solid;
-    padding:2px 20px;
-    border-radius:3px;
+  #botaoEnviar{
+    font-size: 1vw;
+    background-color:rgb(33, 41, 103);
+    height: 1.5vw;
+    width: 4vw;
     margin:0 auto;
+    border-radius: 0.5vw;
+    border-color: #040117;
+    color:rgb(0, 0, 0)
+  }
+
+  #botaoEnviar:active{
+    background-color:rgb(93, 129, 192);
+    border-radius: 0.5vw;
+    border-color: #040117;
   }
 
   form{
-    height: 10vh;
-    padding: 0px 1px;
+    height: 10%;
+    padding: 0vw 1%;
     text-align: center;
+    font-size: 1vw;
+  }
+
+  input{
+    font-size: 1vw;
+    padding: 0vw;
   }
 
   footer{
     background-color:rgb(15, 30, 66);
     color:white;
-    margin-top: 1vh;
+    margin-top: 1vw;
     text-align: center;
-    padding: 1vh;
+    padding: 1vw;
+    font-size: 1vw;
   }
