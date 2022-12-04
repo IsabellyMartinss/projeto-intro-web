@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Best Police TV Series</title>
+      <link rel="stylesheet" type="text/css" href="./style.css">
+      <script src="script.js"defer></script>
+    </head>
+
+      <body>    
+        <header>
+          <div class="header">
+            <img src="img/logo.png" id="logoPrincipal" alt=""/>
+          </div>
+          <div class="header">
+            <input type="text" id="Buscar" placeholder="Buscar..."/>
+            <button onClick="buscar(event)" type="button" id="botaoBuscar"><img src="https://bit.ly/3Lk3vNT" id="logoBuscar"/></button>
+          </div>
+          <h1>Best Police TV Series</h1>
+        </header>
+
+        <main class="conteiner" id="conteiner">
+          <div id="div">     
+          <!-- <section class="conteiner__card">
+                <img src="img/SUV.png">
+                <a href="https://www.adorocinema.com/series/serie-74/" target="_blank">Law & Order: S.V.U</a> 
+                <p>Sinopse: A vida e os desafios da Equipe Especial de Elite do Departamento de Polícia de Nova York. A 'Special Victims Unit' (Unidade de Vítimas Especiais) investiga os crimes de caráter sexual, seguindo os passos dos detetives Elliot Stabler e Olivia Benson. Com sabedoria, eles precisam ao mesmo tempo balancear os efeitos das investigações em suas vidas pessoais.<br>
+                <br>Elenco: Mariska Hargitay como Olivia Benson, Christopher Meloni como Dét. Elliot Stabler, Kelli Giddish como Amanda Rollins, Ice-T como Odafin Tutuola, Dann Florek como Cpt. Donald Cragen, Tamara Tunie como Dr Melinda Warner.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/B99.png"> 
+                <a href="https://www.adorocinema.com/series/serie-11542/" target="_blank">Brooklyn Nine-Nine</a>
+                <p>Sinopse: A série gira em torno da 99.ª Delegacia do Brooklyn NYPD e do detetive Jake Peralta, que tem uma alta taxa de prisões bem-sucedidas e casos resolvidos, apesar de sua atitude relaxada, despreocupada e (às vezes) infantil. Jake muitas vezes entra em conflito com seu novo comandante, o sério e severo capitão Raymond Holt.<br>
+                <br>Elenco: Andy Samberg como Jake Peralta, Melissa Fumero como Amy Santiago, Andre Braugher como Cpt. Raymond Holt, Stephanie Beatriz como Rosa Diaz, Terry Crews como Terry Jeffords, Joe Lo Truglio como Charles Boyle,Dirk Blocker como Hitchcock, Joel McKinnon Miller como Scully, Chelsea Peretti como Gina Linetti.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/CriminalMinds.jpeg" alt="">
+                <a href="https://www.adorocinema.com/series/serie-443/" target="_blank">Criminal Minds </a>
+                <p>Sinopse: A BAU (Unidade de Análise Comportamental) é uma subdivisão do FBI com base em Quantico, no estado da Virginia. Quando a polícia local pede assistência para a resolução de crimes em série ou de natureza extremamente violenta, o time usa técnicas como traçar um perfil para o suspeito com base nas suas vítimas e nas características específicas do crime.<br>
+                <br>Elenco: Joe Mantegna como David Rossi, Thomas Gibson como Aaron 'Hotch' Hotchner, Shemar Moore como Derek Morgan, Matthew Gray Gubler como Spencer Reid, A.J. Cook como Jennifer 'JJ' Jareau, Paget Brewster como Emily Prentiss, Kirsten Vangsness como Penelope Garcia</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/Org.C.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-26420/" target="_blank">Law & Order: Org.C.</a> 
+                <p>Sinopse: Law & Order: Organized Crime é o spin-off de Law & Order: SVU. Na trama o detetive veterano Elliot Stabler retorna ao Departamento de Polícia de Nova York almejando encontrar o responsável pelo crime que o traumatizou. Ele passa a ser braço direito da sargento Ayanna Bell. Como um dos líderes da força tarefa, Stabler terá a difícil missão de restabelecer sua vida e ao mesmo tempo lidar com organizações criminosas influentes em toda a região.<br>
+                <br>Elenco: Christopher Meloni como Elliot Stabler, Danielle Moné Truitt como Ayanna Bell, Tamara Taylor como Angela Wheatley, Ainsley Seiger como Jet Sloomaekers, Dylan McDermott como Richard M. Wheatley</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/Chicago_PD.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-12091/" target="_blank">Chicago P.D. Distrito 21</a>                
+                <p>Sinopse: O 21º Departamento de Polícia de Chicago é formado por dois grupos distintos: A patrulha formada por policiais fardados que lidam com crimes urbanos e a Unidade de Inteligência composta por oficiais e detetives que investigam os maiores crimes da cidad, sendo liderada pelo detetive Sgt. Hank Voight, que possui uma marca única de justiça, a equipe combate os crimes mais hediondos da cidade: ações do crime organizado, tráfico de drogas, assassinatos e muito mais.<br>
+                <br>Elenco: Jason Beghe como Hank Voight, Jon Seda como Antonio Dawson, Jesse Lee Soffer como Jay Halstead, Patrick Flueger como Adam Ruzek, Marina Squerciati como Kim Burgess, LaRoyce Hawkins como Kevin Atwater, Amy Morton como Trudy Platt, Tracy Spiridakos como Hailey Upton, Elias Koteas como Alvin Olinsky, Sophia Bush como Erin Lindsay.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/elementary.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-10552/" target="_blank">Elementary</a>
+                <p>Sinopse: A série é uma adaptação da obra Sherlock Holmes, trazendo os personagens principais para o tempo presente, em Nova York. Na trama, Watson foi transformado em uma mulher. Sherlock é um ex-consultor da Scotland Yard que chega em Nova York após passar um período em um centro de reabilitação. Ele é forçado por seu pai a dividir sua casa com a Dra. Joan Watson, uma ex-cirurgiã que foi contratada como monitora de reabilitação. Ela acaba se envolvendo com o trabalho de Sherlock como consultor da NYPD.<br>
+                <br>Elenco: Jonny Lee Miller como Sherlock Holmes, Lucy Liu como Joan Watson, Aidan Quinn como Cp. Tobias 'Toby' Gregson, Jon Michael Hill como Detective Marcus Bell.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/shooter.png">
+                <a href="https://www.adorocinema.com/series/serie-19619/" target="_blank">Shooter</a>
+                <p>Sinopse: Bob Lee Swagger é um atirador da elite naval que descobre um atentado contra o presidente dos Estados Unidos. Ao tentar impedir este assassinato, ele é traído e se torna o principal suspeito do crime. Enquanto é caçado, Swagger terá que encontrar uma forma de provar sua inocência.<br>
+                <br>Elenco: Ryan Phillippe como Bob Lee Swagger, Shantel VanSanten como Julie Swagger, Cynthia Addai-Robinson como Nadine Memphis, Omar Epps como Isaac Johnson, Josh Stewart como Solotov</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/reacher.png">
+                <a href="https://www.adorocinema.com/series/serie-25364/" target="_blank">Reacher</a>
+                <p>Sinopse: Após deixar o Exército dos EUA, o veterano Jack Reacher decide seguir uma nova carreira como investigador. Quando Jack chega numa pequena cidade, vários homicídios passam a ocorrer, ele acaba se tornando o principal suspeito. Mas consegue provar sua inocência, o xerife local decide pedir sua ajuda para resolver a série de assassinatos. Aos poucos, o ex-militar vai juntando as pistas necessárias e percebe que há algo muito mais obscuro por trás das mortes.<br>
+                <br>Elenco: Alan Ritchson como Jack Reacher, Malcolm Goodwin como Oscar Finlay, Willa Fitzgerald como Roscoe Conklin, Bruce McGill como Mayor Grover Teale.</p>
+              </section>
+              
+              <section class="conteiner__card">
+                <img src="img/Jessica.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-10411/" target="_blank">Jessica Jones</a>
+                <p>Sinopse: Desde que sua vida como super-heroína acabou de forma trágica, Jessica Jones passou a ser detetive particular no bairro de Hell's Kitchen-NY, abriu sua própria agência de investigações. Ela tenta fazer com que seus super-poderes passem despercebidos pelos seus clientes. Mas mesmo tentando fugir do passado, seus inimigos vão voltar a perseguí-la, na figura de Zebediah Kilgrave, um obsessivo vilão que fará de tudo para chamar a atenção de Jessica.<br>
+                <br>Elenco: Krysten Ritter como Jessica Jones, Rachael Taylor como Trish Walker, Janet McTeer como Alisa Jones, Leah Gibson como Ingrid, J.R. Ramirez como Oscar, Eka Darville como Malcolm Ducasse, Carrie-Anne Moss como Jeri Hogarth, Terry Chen como Pryce Cheng.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/Blinspot.png">
+                <a href="https://www.adorocinema.com/series/serie-18054/" target="_blank">Blindspot</a>
+                <p>Sinopse: A história começa quando Jane Doe, completamente sem memória, é encontrada dentro de uma mala no meio da Times Square, em Nova York, com o corpo coberto de tatuagens recentes. E uma dessas tatuagens é o nome do agente do FBI Kurt Weller (Sullivan Stapleton). Agora, ele terá que desvendar os mistérios: Quem é esta mulher e o que significam suas tatuagens que mais parecem enigmas?<br>
+                <br>Elenco: Jaimie Alexander como Jane Doe, Sullivan Stapleton como Kurt Weller, Rob Brown como Edgar Reade, Audrey Esparza como Tasha Zapata, Ashley Johnson como Patterson, Ennis Esmer como Rich Dotcom, Mary Elizabeth Mastrantonio como Madeline Burke</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/CSI.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-82/" target="_blank">CSI: Crime Scene Investigation</a>
+                <p>Sinopse: A série mostra as investigações de um grupo de cientistas forenses da polícia de Las Vegas. Os peritos trabalham desvendando misteriosos crimes que são pouco comuns, a ponto de alguns parecerem impossíveis de resolver. A série vai mostrando o cotidiano dos investigadores, que enquanto resolvem esses casos surpreendentes, também precisam cuidar de suas vidas.<br>
+                <br>Elenco: William L. Petersen como Gil Grissom, Marg Helgenberger como Catherine Willows, Gary Dourdan como Warrick Brown, George Eads como Nick Stokes,Jorja Fox como Sara Sidel, Paul Guilfoyle (II) como Jim Brass, Robert David Hall como Al Robbins,Eric Szmanda como Greg Sanders, Wallace Langham como David Hodges</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/eve.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-22269/" target="_blank">Killing Eve</a>
+                <p>Sinopse: Eve Polastri trabalha como agente de segurança do MI5-UK, mas o emprego estável e dentro de quatro paredes não satisfaz seu desejo de virar uma espiã. Então, quando surge a oportunidade de liderar uma divisão especial do MI6-UK, ela não pensa duas vezes e mergulha numa caçada implacável por uma serial killer. Agora, seu alvo principal é Villanelle, uma criminosa tão elegante quanto perspicaz.<br>
+                <br>Elenco: Sandra Oh como Eve Polastri, Jodie Comer como Villanelle, Fiona Shaw como Carolyn Martens, Kim Bodnia como Konstantin, Sean Delaney como Kenny Stowton</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/Mindhunter.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-20143/" target="_blank">Mindhunter</a>
+                <p>Sinopse: A séreie se passa nos Estados Unidos, no ano de 1977. Holden Ford e Bill Tench, dois agentes do FBI, possuem um plano ambicioso em mente: desenvolver a primeira pesquisa nos EUA sobre a mente dos assassinos, com o intuito de entender como esses criminosos pensam e aplicar esse conhecimento para resolver os casos em curso. Para isso, eles precisam ganhar a confiança dos detentos e superar uma série de desafios.<br>
+                <br>Elenco: Jonathan Groff (II) como Holden Ford, Holt McCallany como Bill Tench, Hannah Gross Personagem: Debbie Mitford, Anna Torv Personagem: Wendy Carr, Cotter Smith Personagem: Unit Chief Shepard</p>
+              </section>  
+
+              <section class="conteiner__card"> 
+                <img src="img/Castle.png" alt="Fazer descrição da foto">
+                <a href="https://www.adorocinema.com/series/serie-4178/" target="_blank">Castle</a>
+                <p>Sinopse: Richard Castle é um escritor de sucesso especializado em suspense policial. Após uma série de crimes inspirados em seus livros, ele desperta a atenção da polícia. O contato com agentes da lei faz com que Castle comece a trabalhar em um novo livro. Ele assume a função de consultor da polícia de Nova York, atuando lado a lado com a detetive Kate Beckett e seus parceiros Javier Esposito e Kevin Ryan.<br>
+                <br>Elenco: Nathan Fillion como Richard Castle, Stana Katic como Kate Beckett, Molly C. Quinn como Alexis Castle, Susan Sullivan como Martha Rodgers, Jon Huertas como Javier Esposito, Seamus Dever como Kevin Ryan, Tamala Jones como Lanie Parish, Toks Olagundoye como Hayley Shipton.</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/CSI_CYBER.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-17345/" target="_blank">CSI Cyber</a>
+                <p> Sinopse: Um departamento de criminalística forense, focado em crimes virtuais. Inspirada no trabalho da psicóloga irlandesa Mary Aiken, a série é centrada em Avery Ryan, agente especial encarregada da Divisão de Crimes Virtuais do Quantico.<br>
+                <br>Elenco: Patricia Arquette como Avery Ryan, James Van Der Beek como Elijah Mundo, Charley Koontz como Daniel Krumitz, Hayley Kiyoko como Raven Ramirez, Ted Danson como D.B. Russell, Shad Moss como Brody Nelson</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/unbelievable.png">
+                <a href="https://www.adorocinema.com/series/serie-23246/" target="_blank">Unbelievable</a>
+                <p>Aviso de gatilho: este texto fala sobre agressões sexuais.<br>
+                <br>Sinopse: Uma jovem menina de 18 anos (Kaitlyn Dever) que contou à polícia ter sido estuprada dentro de seu próprio apartamento, e depois voltou atrás em sua versão. O caso só pôde avançar, de fato, quando duas detetives do sexo feminino (Toni Collette e Merritt Wever) assumiram a liderança e compreenderam melhor o contexto da ocasião.<br>
+                <br>Elenco: Kaitlyn Dever como Marie, Toni Collette como Grace Rasmussen, Merritt Wever como Karen Duvall</p>
+              </section>
+
+              <section class="conteiner__card">
+                <img src="img/unit42.png" alt="">
+                <a href="https://www.imdb.com/title/tt6136644/" target="_blank">Unit 42</a>
+                <p>Sinopse: Uma série de detetives que nos transporta pelas reviravoltas da Internet e das tecnologias emergentes. A tecnologia moderna permite que os criminosos atuem no mundo real, o tempo todo protegidos por suas telas de computador. A Unidade Digital da polícia combina investigações de campo e expedições virtuais usando uma dupla única: Sam, um policial recém-transferido do departamento de homicídios (nada experiente em tecnologia) e Billie, uma policial jovem e mal-humorada especialista em TI e ex-hacker, juntos eles irão caçar criminosos experientes em tecnologia que estão aterrorizando a Bélgica.<br>
+                <br>Elenco: Patrick Ridremont como Sam Leroy, Constance Gay como Billie Vebber, Tom Audenaert como Bob Franck, Roda Fawaz como Nassim Khaoulani, Danitza Athanassiadis como Alice Meerks</p>
+              </section>  
+
+              <section class="conteiner__card">
+                <img src="img/Bones.png" alt="">
+                <a href="https://www.adorocinema.com/series/serie-452/" target="_blank">Bones</a>
+                <p>Sinopse: A antropóloga forense Dra. Temperance Brennan juntamente ao FBI acompanha investigações de casos de assassinatos envolvendo restos mortais das vítimas, especialmente seus ossos. O Agente Especial Seeley Booth, arrogante porém charmoso, é quem trabalha com ela na Agência de Investigação.<br>
+                <br>Elenco: Emily Deschanel como Temperance Brennan, David Boreanaz como Seeley Booth, Michaela Conlin como Angela Montenegro, T.J. Thyne como Jack Hodgins, Tamara Taylor como Camille Saroyan</p>
+              </section>  -->
+            </div>
+          </main>  
+
+        <form> 
+          <h6>Quer se inscrever para receber dicas de séries? Deixei seu email!</h6>
+
+          <label for="nome">Nome:</label>           
+          <input id="nome" type="text"> 
+          <label for="email"> Email:</label> 
+          <input id="email"type="email">
+          <label for="telefone">Telefone:</label>
+          <input id="telefone" type="number">
+          <button id="botaoEnviar">Enviar</button>
+        </form>
+
+      <footer>
+        Desenvolvido por Isabelly Martins Dev Full Stack em Formação
+      </footer>
+      
+    </body>
+  </html>
